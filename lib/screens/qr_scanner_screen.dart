@@ -84,7 +84,7 @@ class _QRScannerScreenState extends State<QRScannerScreen> {
     widget.onScanned(scannedItem);
 
     // Wait 1 second to show the success overlay, then navigate to the Details Screen
-    await Future.delayed(Duration(seconds: 1));
+    await Future.delayed(Duration(milliseconds: 500));
     setState(() {
       showSuccess = false;
     });

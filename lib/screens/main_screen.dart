@@ -14,7 +14,7 @@ class _MainScreenState extends State<MainScreen> {
 
   // Profile details
   String userName = "John Doe";
-  String userRole = "Farmer";
+  String userRole = "Wearhouse Staff";
 
   // Initialize with mock data
   List<Map<String, dynamic>> scannedDataList = [
